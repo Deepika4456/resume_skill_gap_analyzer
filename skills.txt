@@ -1,0 +1,528 @@
+Python
+Python3
+Java
+C++
+C#
+JavaScript
+TypeScript
+SQL
+MySQL
+MongoDB
+PostgreSQL
+HTML
+CSS
+React
+React.js
+Vue
+Vue.js
+Angular
+Node.js
+Node
+Django
+Flask
+FastAPI
+Spring
+Spring Boot
+Git
+GitHub
+Bitbucket
+Docker
+Kubernetes
+K8s
+AWS
+Azure
+GCP
+Google Cloud
+Linux
+Unix
+Windows
+Pandas
+NumPy
+Numpy
+Scikit-learn
+Sklearn
+TensorFlow
+Tensorflow
+PyTorch
+Pytorch
+Machine Learning
+ML
+Deep Learning
+Data Structures
+Algorithms
+Algorithm
+OOPS
+Object Oriented Programming
+Power BI
+Tableau
+Excel
+Data Analysis
+ETL
+Apache Spark
+Spark
+Airflow
+CI/CD
+CICD
+System Design
+REST
+RESTful
+API
+REST API
+GraphQL
+Microservices
+Microservice Architecture
+Agile
+Scrum
+JIRA
+Jenkins
+GitLab
+Gradle
+Maven
+Ant
+Selenium
+Testing
+Unit Testing
+Integration Testing
+JUnit
+Pytest
+Postman
+Swagger
+OpenAPI
+Software Development
+Full Stack
+Frontend
+Backend
+Web Development
+Mobile Development
+iOS
+Android
+DevOps
+Cloud Computing
+Networking
+Database
+Database Design
+NoSQL
+RDBMS
+Data Mining
+NLP
+Natural Language Processing
+Computer Vision
+Vision
+Image Processing
+Reinforcement Learning
+Statistical Analysis
+Statistics
+Probability
+Linear Algebra
+Calculus
+MATLAB
+R Programming
+Scala
+Kotlin
+Go
+Golang
+Ruby
+PHP
+Perl
+Shell Scripting
+Bash
+PowerShell
+Kafka
+RabbitMQ
+Message Queue
+Redis
+Cache
+Elasticsearch
+Elastic
+Big Data
+Hadoop
+Hive
+Pig
+Oozie
+Apache Storm
+Storm
+HDFS
+MapReduce
+Spark SQL
+Spark Streaming
+IoT
+Internet of Things
+IoT
+AWS Lambda
+Lambda
+S3
+EC2
+RDS
+DynamoDB
+CloudFront
+CloudWatch
+IAM
+VPC
+Azure DevOps
+Azure App Service
+Azure SQL
+Azure Cosmos DB
+GCP BigQuery
+BigQuery
+Google Cloud Storage
+Google App Engine
+Firebase
+Blockchain
+Cryptocurrency
+Smart Contracts
+Solidity
+Web3
+Cryptography
+Security
+Cybersecurity
+Authentication
+Authorization
+OAuth
+JWT
+SSL
+TLS
+HTTPS
+Encryption
+Penetration Testing
+SIEM
+IDS
+IPS
+Network Security
+Application Security
+Secure Coding
+OWASP
+GDPR
+HIPAA
+Compliance
+Quality Assurance
+QA
+Bug Tracking
+Performance Testing
+Load Testing
+Stress Testing
+Usability Testing
+Accessibility Testing
+A/B Testing
+Analytics
+Google Analytics
+Mixpanel
+Amplitude
+Data Visualization
+Visualization
+Dashboard
+Metrics
+KPI
+Business Intelligence
+BI
+Data Warehouse
+Data Lake
+ETL
+ELT
+Data Pipeline
+Workflow Automation
+RPA
+Robotic Process Automation
+UiPath
+Blue Prism
+Automation
+Test Automation
+User Interface
+UI
+User Experience
+UX
+UI/UX
+Wireframing
+Prototyping
+Figma
+Adobe Creative Suite
+Adobe XD
+Adobe Photoshop
+Adobe Illustrator
+Sketch
+InVision
+Mockup
+Design Thinking
+Scrum Master
+Product Owner
+Stakeholder Management
+Requirements Analysis
+Business Analysis
+Technical Writing
+Documentation
+Confluence
+Wiki
+Project Management
+Time Management
+Communication
+Leadership
+Team Collaboration
+Mentoring
+Training
+Coaching
+Human Resources
+HR
+Recruiting
+Talent Management
+Performance Management
+Compensation
+Benefits
+Payroll
+Accounting
+Finance
+Financial Modeling
+Budgeting
+Forecasting
+Planning
+Strategy
+Strategic Planning
+Business Development
+Sales
+Marketing
+Digital Marketing
+SEO
+SEM
+Social Media Marketing
+Email Marketing
+Content Marketing
+Brand Management
+Customer Relationship Management
+CRM
+Salesforce
+HubSpot
+Sales Force Automation
+Marketing Automation
+E-commerce
+Supply Chain
+Logistics
+Inventory Management
+Procurement
+Vendor Management
+Quality Management
+Six Sigma
+Lean
+Kanban
+Continuous Improvement
+Manufacturing
+Production
+Operations
+Process Improvement
+Change Management
+Risk Management
+Compliance
+Internal Control
+Audit
+External Audit
+Internal Audit
+SOX
+SOC 2
+ITIL
+ITSM
+IT Service Management
+IT Operations
+Infrastructure
+Virtualization
+VirtualBox
+Hyper-V
+VMware
+Cloud Migration
+Disaster Recovery
+Business Continuity
+Backup
+Recovery
+High Availability
+Scalability
+Load Balancing
+Failover
+Clustering
+Replication
+Database Replication
+Master Slave
+Master Slave Replication
+Sharding
+Partitioning
+Indexing
+Query Optimization
+Performance Tuning
+Monitoring
+Logging
+Metrics Collection
+Alerting
+Incident Management
+Change Management
+Release Management
+Deployment
+Continuous Integration
+Continuous Deployment
+Continuous Development
+Infrastructure as Code
+IaC
+Configuration Management
+Ansible
+Puppet
+Chef
+Terraform
+CloudFormation
+Environment Management
+Dev
+Test
+Stage
+Production
+Staging
+Container
+Containerization
+Orchestration
+Service Mesh
+API Gateway
+Load Balancer
+Reverse Proxy
+Caching
+In Memory Caching
+Distributed Caching
+Session Management
+State Management
+Message Passing
+Event Driven
+Event Driven Architecture
+Reactive Programming
+Functional Programming
+Imperative Programming
+Object Oriented
+Procedural Programming
+Declarative
+Concurrent Programming
+Parallel Programming
+Multithreading
+Thread Safe
+Thread Safety
+Deadlock
+Race Condition
+Synchronization
+Locking
+Mutex
+Semaphore
+Monitor
+Barrier
+Atomic Operations
+Memory Management
+Garbage Collection
+Heap
+Stack
+Pointer
+Reference
+Memory Leak
+Memory Profiling
+Heap Dump
+Thread Dump
+Core Dump
+Debugging
+Breakpoint
+Logging
+Tracing
+Profiling
+CPU Profiling
+Memory Profiling
+IO Profiling
+Network Profiling
+Code Review
+Pair Programming
+Refactoring
+Design Patterns
+Singleton
+Factory
+Builder
+Observer
+Strategy
+Template Method
+Chain of Responsibility
+Command
+Interpreter
+Iterator
+Mediator
+Memento
+State
+Visitor
+Abstract Factory
+Bridge
+Composite
+Decorator
+Facade
+Flyweight
+Proxy
+Adapter
+Anti Pattern
+Code Smell
+Technical Debt
+Maintainability
+Readability
+Modularity
+Reusability
+Extensibility
+Flexibility
+Simplicity
+KISS
+DRY
+SOLID
+Single Responsibility
+Open Closed Principle
+Liskov Substitution
+Interface Segregation
+Dependency Inversion
+YAGNI
+Testing Pyramid
+Unit Test
+Integration Test
+Acceptance Test
+End to End Test
+E2E
+Behavior Driven Development
+BDD
+Test Driven Development
+TDD
+Version Control
+Git
+Subversion
+SVN
+CVS
+RCS
+Perforce
+Bazaar
+Mercurial
+Git Flow
+GitHub Flow
+Trunk Based Development
+Branching Strategy
+Feature Branch
+Release Branch
+Hotfix Branch
+Commit
+Push
+Pull
+Merge
+Rebase
+Cherry Pick
+Stash
+Tag
+Release
+Versioning
+Semantic Versioning
+SemVer
+Version Number
+Tag
+Build
+Artifact
+Dependency Management
+Maven Central
+NPM
+PyPI
+RubyGems
+NuGet
+Maven Repository
+Ivy
+Gradle Repository
+Package Manager
+Dependency Resolution
+Transitive Dependency
+Conflict Resolution
+Exclusion
+Override
+
