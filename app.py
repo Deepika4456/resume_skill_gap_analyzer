@@ -2,18 +2,15 @@ import streamlit as st
 from utils import extract_text_from_pdf, load_skills, match_skills, categorize_score
 from datetime import datetime
 
-# Page configuration
 st.set_page_config(page_title="Resume Skill Gap Analyzer", layout="wide", initial_sidebar_state="expanded")
 
 st.title("🚀 Resume Skill Gap Analyzer")
 st.markdown("#### Analyze your resume against job descriptions and identify skill gaps")
 
-# Sidebar for settings
 with st.sidebar:
     st.header("⚙️ Settings")
     show_details = st.checkbox("Show Detailed Analysis", value=True)
 
-# Create two columns for uploads
 col1, col2 = st.columns(2)
 
 with col1:
@@ -37,8 +34,7 @@ if resume_file and job_description:
             else:
                 resume_skills = match_skills(resume_text, skills_list)
                 jd_skills = match_skills(jd_text, skills_list)
-                
-                # Debug info - collapsible
+            
                 with st.expander("🔍 Debug Info - Click to expand"):
                     st.write(f"**Total skills in database:** {len(skills_list)}")
                     st.write(f"**Resume text length:** {len(resume_text)} characters")
@@ -46,11 +42,10 @@ if resume_file and job_description:
                     st.write(f"**Skills detected in Resume:** {len(resume_skills)}")
                     st.write(f"**Skills detected in JD:** {len(jd_skills)}")
                     
-                    # Show first 50 loaded skills
+                   
                     st.write("**First 50 skills in database:**")
                     st.write(", ".join(skills_list[:50]))
                     
-                    # Manual skill tester
                     st.write("---")
                     st.write("**Manual Skill Tester:**")
                     test_skill = st.text_input("Enter a skill name to test if it's detected:")
@@ -82,14 +77,12 @@ if resume_file and job_description:
                 extra_skills = sorted(list(set(resume_skills) - set(jd_skills)))
                 matched_skills = sorted(list(set(resume_skills) & set(jd_skills)))
 
-                # Calculate match percentage based on required skills
                 match_percent = int((len(matched_skills) / len(jd_skills)) * 100) if jd_skills else 0
                 match_category = categorize_score(match_percent)
 
                 st.success("✅ Analysis Complete!")
                 st.markdown("---")
 
-                # Main metrics
                 st.header("📊 Resume Match Score")
                 col1, col2, col3, col4 = st.columns(4)
                 
@@ -101,13 +94,10 @@ if resume_file and job_description:
                     st.metric("Missing Skills", len(missing_skills))
                 with col4:
                     st.metric("Extra Skills", len(extra_skills))
-
-                # Progress bar
                 st.progress(match_percent / 100)
                 st.markdown(f"**Overall Evaluation:** {match_category}")
                 st.markdown("---")
 
-                # Detailed analysis
                 if show_details:
                     st.header("📌 Detailed Analysis")
                     
@@ -156,8 +146,6 @@ if resume_file and job_description:
                                 st.write(f"• **{skill}**")
                         else:
                             st.warning("⚠️ No skills detected in resume.")
-
-                # Export functionality
                 st.markdown("---")
                 st.subheader("💾 Export Results")
                 
@@ -196,3 +184,4 @@ RESUME FOUND SKILLS ({len(resume_skills)}):
 
 else:
     st.info("👆 Please upload a resume and paste a job description to get started.")
+
