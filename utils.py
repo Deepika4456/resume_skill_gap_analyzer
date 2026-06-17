@@ -2,7 +2,6 @@ import PyPDF2
 import re
 
 def extract_text_from_pdf(pdf_file):
-    """Extract text from uploaded PDF file with error handling."""
     try:
         reader = PyPDF2.PdfReader(pdf_file)
         text = ""
@@ -20,7 +19,6 @@ def extract_text_from_pdf(pdf_file):
         raise Exception(f"Failed to extract PDF: {str(e)}")
 
 def load_skills():
-    """Load skills from skills.txt file."""
     try:
         with open("skills.txt", "r") as file:
             skills = [skill.strip().lower() for skill in file.readlines() if skill.strip()]
@@ -29,10 +27,6 @@ def load_skills():
         raise Exception("skills.txt file not found. Please create it with a list of skills.")
 
 def match_skills(text, skills_list):
-    """
-    Match skills in text with case-insensitive matching.
-    Uses word boundary detection for accuracy.
-    """
     if not text or not skills_list:
         return []
     
@@ -60,7 +54,6 @@ def match_skills(text, skills_list):
     return sorted(list(set(present_skills)))
 
 def categorize_score(score):
-    """Categorize match score into levels."""
     if score >= 80:
         return "🟢 Strong Match"
     elif score >= 60:
