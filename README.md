@@ -2,7 +2,7 @@
 
 A Streamlit web app that analyzes a resume PDF against a pasted job description, extracts skills from both using regex-based matching against a reference skill list, and reports a match score along with matched, missing, and bonus skills — helping candidates quickly identify gaps to close before applying.
 
-🔗 **Live demo:** 
+🔗 **Live demo:** https://resumeskillgapanalyzer-dh68muwvbxtrmvw7qrrfx7.streamlit.app/
 
 ## Problem
 
